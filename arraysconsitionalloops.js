@@ -170,8 +170,8 @@ whereIsWaldo.splice(whereIsWaldo.indexOf("Eggbert"),1)
 //console.log(whereIsWaldo);
 
 //Change "Neff" to "No One"
-whereIsWaldo[1][2] = "No one";
-//console.log(whereIsWaldo)
+whereIsWaldo[1][whereIsWaldo[1].indexOf("Neff")] = "No one";
+console.log(whereIsWaldo)
 
 
 //Excited Kitten
